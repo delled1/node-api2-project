@@ -11,7 +11,7 @@ server.use(postsRouter)
 
 server.get('/', (req, res) => {
     res.json({
-        message: "Homepage"
+        message: `Homepage`
     })
 })
 
