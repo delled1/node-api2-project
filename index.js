@@ -1,5 +1,5 @@
 const server = require("./api/server")
 
-server.listen(4000, () => {
-    console.log("running at http://localhost:4000")
+server.listen(8080, () => {
+    console.log("running at http://localhost:8080")
 }) 
