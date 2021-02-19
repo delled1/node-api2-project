@@ -2,9 +2,8 @@
   "name": "node-api2-project",
   "version": "0.0.1",
   "scripts": {
-    "start": "node index.js",
-    "server": "nodemon index.js",
-    "test": "cross-env NODE_ENV=testing jest --watch --verbose --runInBand --silent"
+    "watch": "nodemon --require dotenv/config index.js",
+		"start": "node index.js"
   },
   "dependencies": {
     "express": "^4.17.1",
